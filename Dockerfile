@@ -6,7 +6,7 @@ RUN apk update
 RUN apk add --no-cache \
     bash bash-completion supervisor tzdata shadow \
     php81 php81-fpm php81-session php81-json php81-xml php81-mbstring php81-exif \
-    php81-intl php81-gd php81-pecl-imagick php81-zip php81-opcache \
+    php81-intl php81-gd php81-pecl-imagick php81-zip php81-opcache php81-pdo_sqlite php81-common php81-pdo musl sqlite-libs sqlite\
     ffmpeg imagemagick zip apache2-utils patch
 
 # Environments
